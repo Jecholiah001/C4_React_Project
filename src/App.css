@@ -395,7 +395,7 @@ footer{
 
   .main-sec{
     width: 700px;
-    height: 2100px;
+    height: 2500px;
     margin-top: 0;
   }
 
@@ -411,19 +411,19 @@ footer{
   }
   
   .card {
-    width: 400px;
+    width: 500px;
     height: 300px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 70px;
     border-radius: 10px;
     text-align: center;
   } 
 
   .card h3{
-    font-size: 30px;
+    font-size: 35px;
   }
   .card p{
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .card img {
