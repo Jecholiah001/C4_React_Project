@@ -293,17 +293,10 @@ footer{
   margin-top: 70px;
 }
 
-li{
-  line-height: 40px;
-  list-style: none;
-}
 
 /* Mobile Styling */
-@media screen and (min-width: 350px) and (max-width: 450px){
+@media screen and (min-width: 320px) and (max-width: 450px){
   body {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     padding: 0;
   } 
   .navlinks {
@@ -315,12 +308,8 @@ li{
   }
 
   .logo {
-    background-image: url(./assets/images/logo.svg);
     width: 100%;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-size: contain;
-  
+    height: 50px; 
   }
 
   nav {
@@ -342,7 +331,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 95px;
+    margin-left: 270px;
   }
 
   .hero_text h1{
@@ -378,7 +367,7 @@ li{
     flex-direction: column;
     width: 500px;
     height: 200px;
-    margin-left: 35px;
+    margin-left: 100px;
     margin-top: 460px;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -405,7 +394,7 @@ li{
   }
 
   .main-sec{
-    width: 570px;
+    width: 700px;
     height: 2100px;
     margin-top: 0;
   }
@@ -441,9 +430,9 @@ li{
     position: absolute;
     top: -3rem;
     background-color: #3B3054;
-    padding: 20px;
-    background-size: 60px;
-    border-radius: 60px;
+    padding: 40px;
+    border-radius: 60px;  
+    margin-left: -60px;  
   }
   
   .stat-list {
@@ -457,7 +446,7 @@ li{
   }
   
   .boost_sec {
-    width: 570px;
+    width: 700px;
     height: 400px;
     justify-content: center;
     align-items: center;
@@ -466,6 +455,48 @@ li{
   .b-text {
     font-size: 40px;
     text-align: center;
+  }
+
+  footer{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 1900px;
+  }
+  .footer-logo{
+    font-size: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .footer_nav,.footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 35px;
+    padding: 0px;
+    margin: 20px;
+    margin-top: 60px;
+  }
+  .social-media{
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 140px;
+  }
+  .social-media img{
+    width: 20%;
+    height: 50%;
+    margin: 30px;
+  }
+  
+  li{
+    font-size: 35px;
+    line-height: 60px;
+    list-style: none;
   }
 }
 
