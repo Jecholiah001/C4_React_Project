@@ -4,7 +4,7 @@ import React from 'react'
 function Input() {
   return (
     <div className='link_input'>
-      <input type='text'placeholder='Shorten the link here..'></input>
+      <input type='text'placeholder='Shorten the link here...'></input>
       <button className='input-btn'>Shorten It!</button>
     </div>
   )
